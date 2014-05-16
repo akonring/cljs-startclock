@@ -1,0 +1,18 @@
+#outer-watch {
+    text-align: center;
+}
+
+.person_attribute {
+    display: inline;
+    margin-right: 2em;
+    font-size: 2em;
+}
+
+.watch {
+    font-size: 3em;
+    line-height: 1em;
+    font-family: helvetica;
+}
+
+
+

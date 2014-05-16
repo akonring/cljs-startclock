@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Simple CLJS</title>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/watch.css">
+</head>
+<body>
+<div id="outer-watch">
+<div id="watch" class="watch"><h1>00:00:00</h1>
+</div>
+<audio id="watch-sound" controls>
+  <source src="public/silvaclock.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+</div>
+<div class="personlist">
+  <div class="person">
+    <div class="person_attribute firstname">John</div>
+    <div class="person_attribute lastname">Doe</div>
+    <div class="person_attribute club">Doe's Club</div>
+    <div class="person_attribute starttime">11:00</div>
+    </div>
+    </div>
+    
+
+<!-- pointing to cljsbuild generated js file -->
+<script type="text/javascript" src="js/out/goog/base.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript">goog.require('cljs_tut.core');</script>
+</body>
+</html>
